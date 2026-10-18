@@ -193,12 +193,12 @@ public class ToroaEntity extends Animal {
     @Nullable
     @Override
     public AgeableMob getBreedOffspring(ServerLevel level, AgeableMob mate) {
-        return com.miller.wildlifemod.entity.ModEntityTypes.TOROA.create(level, net.minecraft.world.entity.EntitySpawnReason.BREEDING); // TODO: rename field in ModEntityTypes
+        return com.miller.wildlifemod.entity.ModEntityTypes.TOROA.create(level, net.minecraft.world.entity.EntitySpawnReason.BREEDING);
     }
 
     @Override
     protected SoundEvent getAmbientSound() {
-        return null; // TODO: ModSounds.TOROA_CALL.get()
+        return SoundEvents.PARROT_AMBIENT;
     }
 
     @Override

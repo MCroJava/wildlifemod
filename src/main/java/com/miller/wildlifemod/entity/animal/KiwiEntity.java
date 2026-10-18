@@ -118,7 +118,7 @@ public class KiwiEntity extends Animal {
 
     @Override
     protected SoundEvent getAmbientSound() {
-        return null; // TODO: ModSounds.KIWI_CALL.get()
+        return SoundEvents.PARROT_AMBIENT;
     }
 
     @Override

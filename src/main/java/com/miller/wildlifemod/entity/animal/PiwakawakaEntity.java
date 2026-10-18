@@ -167,7 +167,7 @@ public class PiwakawakaEntity extends Animal {
 
     @Override
     protected SoundEvent getAmbientSound() {
-        return null; // TODO: ModSounds.PIWAKAWAKA_CHIRP.get()
+        return SoundEvents.PARROT_AMBIENT;
     }
 
     @Override

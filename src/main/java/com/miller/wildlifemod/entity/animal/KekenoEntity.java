@@ -153,7 +153,7 @@ public class KekenoEntity extends Animal {
 
     @Override
     protected SoundEvent getAmbientSound() {
-        return null; // TODO: ModSounds.KEKENO_BARK.get()
+        return SoundEvents.COD_AMBIENT;
     }
 
     @Override

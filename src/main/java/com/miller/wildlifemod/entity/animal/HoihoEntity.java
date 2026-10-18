@@ -251,7 +251,7 @@ public class HoihoEntity extends Animal {
     //these handle the sound effects.
     @Override
     protected SoundEvent getAmbientSound() {
-        return null; // TODO: ModSounds.HOIHO_CALL.get()
+        return SoundEvents.DOLPHIN_AMBIENT;
     }
 
     @Override
